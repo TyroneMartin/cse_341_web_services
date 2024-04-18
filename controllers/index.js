@@ -1,20 +1,16 @@
-// const awesomeFunction =  (req, res, next) => {
-//     console.log("awesomeFunction was called: ", awesomeFunction)
-//     res.json('Awsome person') 
-//    }
 
-// module.exports = {awesomeFunction}
+const Controller = {};
 
-const getName = (req, res) => {
-    res.send('Rose Bent');
-  };
-
-const index = (req, res) => {
-
-  
+Controller.getName = (req, res) => {
+    // res.send('Rose Bent');
+    res.render("address_book", {
+    });
 };
 
-  
-  
-module.exports = { getName, index };
+
+
+
+
+module.exports = Controller
+
    
