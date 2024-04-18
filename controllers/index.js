@@ -8,7 +8,13 @@
 const getName = (req, res) => {
     res.send('Rose Bent');
   };
+
+const index = (req, res) => {
+
+  
+};
+
   
   
-module.exports = { getName };
+module.exports = { getName, index };
    
