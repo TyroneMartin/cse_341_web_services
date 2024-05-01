@@ -7,7 +7,6 @@ const getAll = async (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(lists);
   });
-  // console.log("Result: ", result);
 
 };
 
@@ -37,7 +36,7 @@ const getSingle = async (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(result);
   } else {
-    res.status(404).json({ message: 'Contact not found' });
+    res.status(404).json({ message: 'This contact is not found' });
   }
 };
 
