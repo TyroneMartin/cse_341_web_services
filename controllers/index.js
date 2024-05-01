@@ -2,12 +2,9 @@
 const Controller = {};
 
 Controller.getName = (req, res) => {
-    // res.send('Rose Bent');
-    res.render("address_book", {
-    });
+    // res.json is used to create backend api
+    res.json({ name: 'Rose Bent' });    //  sends this an json object
 };
-
-
 
 
 

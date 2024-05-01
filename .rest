@@ -1,6 +1,15 @@
-GET http://localhost:3000 HTTP/1.1
+// LOCALHOST
+GET http://localhost:8080
+### 
+GET http://localhost:8080/contacts/contacts 
+### 
+GET http://localhost:8080/contacts/663249cb8ea92ee60e761f0b HTTP/1.1
 
 ### 
+GET http://localhost:8080/contacts/66324c98e40c82f622ee7765 HTTP/1.1
+### 
+GET http://localhost:8080/contacts/66324e34e40c82f622ee7766 HTTP/1.1
+### 
+GET http://localhost:8080/contacts/66324f03e40c82f622ee7767 HTTP/1.1
 
-# GET http://localhost:3000/index.html HTTP/1.1
 
