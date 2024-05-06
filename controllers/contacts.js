@@ -42,7 +42,6 @@ const getSingle = async (req, res, next) => {
   }
 };
 
-
 const createContact = async (req, res) => {
   const contact = {
     firstName: req.body.firstName,
@@ -92,7 +91,8 @@ const deleteContact = async (req, res) => {
   .getDb()
   .db()
   .collection('contacts')
-  .remove({ _id: userId }, true); // remove is used to delete a single document
+  // .deleteOne({ _id: userId });
+  .deleteOne({ _id: userId }, true); // remove is used to delete a single document
   console.log(response);
   if (response.deletedCount > 0) {
     res.status(204).send();
