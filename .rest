@@ -13,24 +13,19 @@ GET http://localhost:8080/contacts/66324e34e40c82f622ee7766 HTTP/1.1
 GET http://localhost:8080/contacts/66324f03e40c82f622ee7767 HTTP/1.1
 
 
-
-
-
-
-
 ### Create contact 
 POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
 {
-"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
-
+"firstName":"Joshua", "lastName":"Merchant", "email":"JoshuaMerchant@gmail.com", "favoriteColor":"Brown", "birthday":"07/10/84"
 }
 
 ### PUT contact 
-PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 content-type: application/json
+PUT http://localhost:8080/contacts/663249cb8ea92ee60e761f0b 
+
+# HTTP/1.1 content-type: application/json
 
 {
-"firstName":"Sarah", "lastName":"Birch", "email":"test@gmail.com", "favoriteColor":"Green", "birthday":"12/12/20"
-
+"firstName":"Julie", "lastName":"Merchant", "email":"JMerchant@gmail.com", "favoriteColor":"Olive", "birthday":"02/22/95"
 } 
 
 ### DELETE contact 
