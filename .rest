@@ -1,6 +1,6 @@
 // LOCALHOST
 GET http://localhost:8080
-### 
+###  Get contact by id 
 GET http://localhost:8080/contacts 
 ### 
 GET http://localhost:8080/contacts/663249cb8ea92ee60e761f0b HTTP/1.1
@@ -12,4 +12,50 @@ GET http://localhost:8080/contacts/66324e34e40c82f622ee7766 HTTP/1.1
 ### 
 GET http://localhost:8080/contacts/66324f03e40c82f622ee7767 HTTP/1.1
 
+
+
+
+
+
+
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1 content-type: application/json
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+
+}
+
+### PUT contact 
+PUT http://localhost:8080/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"test@gmail.com", "favoriteColor":"Green", "birthday":"12/12/20"
+
+} 
+
+### DELETE contact 
+DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+
+// PRODUCTION Deploy 
+
+### Get all contacts 
+GET https://cse-341-web-services-imke.onrender.com/contacts
+
+### Get contact by id 
+GET https://cse-341-web-services-imke.onrender.com/contacts/663249cb8ea92ee60e761f0b
+
+### Create contact 
+POST https://cse-341-web-services-imke.onrender.com/contacts HTTP/1.1 content-type: application/json
+{
+"firstName":"Rasheem", "lastName":"Keer", "email":"RasheemKeer@gmail.com", "favoriteColor":"Purple", "birthday":"06/09/1997"
+}
+
+### PUT contact 
+PUT https://cse-341-web-services-imke.onrender.com/66324f03e40c82f622ee7767 HTTP/1.1 content-type: application/json
+{
+"firstName":"Samantha", "lastName":"Brown", "email":"Sambrown@yahoo.com", "favoriteColor":"Pink", "birthday":"01/08/2020"
+}
+
+### DELETE contact
+DELETE https://cse-341-web-services-imke.onrender.com/66324f03e40c82f622ee7767 HTTP/1.1
 

@@ -1,4 +1,6 @@
 node_modules
 .env
 db/playground-1.mongodb.js
+package.json
+.eslintrc.json
 
