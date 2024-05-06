@@ -63,9 +63,9 @@ content-type: application/json
 
 
 ### PUT contact 
-PUT https://cse-341-web-services-imke.onrender.com/contacts/663872ab5014f8846ea19ae7 HTTP/1.1
-
+PUT https://cse-341-web-services-imke.onrender.com/contacts/663852449fdb8f8e7896de4a HTTP/1.1
 content-type: application/json
+
 {
 "firstName":"Samantha", 
 "lastName":"Brown", 
