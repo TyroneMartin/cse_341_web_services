@@ -33,12 +33,12 @@ content-type: application/json
 "firstName":"Julie", 
 "lastName":"Merchant", 
 "email":"JMerchant@gmail.com", 
-"favoriteColor":"Olive", 
+"favoriteColor":"Green", 
 "birthday":"02/22/95"
 } 
 
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/663852449fdb8f8e7896de4a HTTP/1.1
+DELETE http://localhost:8080/contacts/663b921a575163c2994d0806 HTTP/1.1
 
 
 
@@ -55,10 +55,10 @@ POST https://cse-341-web-services-imke.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
- "firstName":"Rasheem", 
- "lastName":"Keer", "email":"RasheemKeer@gmail.com",
+ "firstName":"Jim", 
+ "lastName":"Keer", "email":"Jim@gmail.com",
  "favoriteColor":"Purple",
- "birthday":"06/09/1997"
+ "birthday":"06/09/2000"
 }
 
 
@@ -70,10 +70,10 @@ content-type: application/json
 "firstName":"Samantha", 
 "lastName":"Brown", 
 "email":"Sambrown@yahoo.com", 
-"favoriteColor":"Pink", 
+"favoriteColor":"Purple", 
 "birthday":"01/08/2020"
 }
 
 ### DELETE contact
-DELETE https://cse-341-web-services-imke.onrender.com/contacts/663872ab5014f8846ea19ae7 HTTP/1.1
+DELETE https://cse-341-web-services-imke.onrender.com/contacts/663b92f943994893d093c863 HTTP/1.1
 
