@@ -9,7 +9,7 @@ const swaggerDocument = require('../swagger.json');
 
 
 router.use('/api-docs', swaggerUi.serve);
-router.get('/api-docs', swaggerUi.setup(swaggerDocument));
+router.get('/api-docs', swaggerUi.setup(swaggerDocument)); // http://localhost:8080/api-docs
 
 
 
