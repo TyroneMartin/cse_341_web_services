@@ -3,4 +3,4 @@ node_modules
 db/playground-1.mongodb.js
 package.json
 swagger-output.json
-swagger.json
+# swagger.json
