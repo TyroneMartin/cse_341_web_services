@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host: ['localhost:8080', 'https://dashboard.render.com/web/srv-cmlho77109ks7392h2p0']
+  host: ['localhost:8080', 'https://cse-340-web-backend-dev.onrender.com/api-docs/']
 };
 
 const outputFile = './swagger-output.json';
