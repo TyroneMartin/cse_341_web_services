@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Description'
   },
-  host: ['localhost:8080', 'https://cse-341-web-services-imke.onrender.com']
+  host: ['localhost:8080', 'https://cse-341-web-services-imke.onrender.com/']
 };
 
 // const outputFile = './swagger-output.json';

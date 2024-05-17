@@ -1,7 +1,4 @@
-// LOCALHOST
-
-
-
+// LOCALHOST Connection 
 GET http://localhost:8080/api-docs
 ###
 
@@ -46,9 +43,11 @@ content-type: application/json
 ### DELETE contact 
 DELETE http://localhost:8080/contacts/663b921a575163c2994d0806 HTTP/1.1
 
-
-
 // PRODUCTION Deploy 
+
+// Swagger 
+GET https://cse-341-web-services-imke.onrender.com/api-docs/
+###
 
 ### Get all contacts 
 GET https://cse-341-web-services-imke.onrender.com/contacts  HTTP/1.1

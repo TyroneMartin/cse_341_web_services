@@ -5,7 +5,7 @@
       "description": "My API routes for my contacts list",
       "version": "1.0.0"
     },
-    "host": "localhost:8080",
+    "host": "cse-341-web-services-imke.onrender.com",
     "basePath": "/",
     "schemes": [
       "http", "https"
