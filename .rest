@@ -44,6 +44,7 @@ content-type: application/json
 DELETE http://localhost:8080/contacts/663b921a575163c2994d0806 HTTP/1.1
 
 // PRODUCTION Deploy 
+###
 
 // Swagger 
 GET https://cse-341-web-services-imke.onrender.com/api-docs/
@@ -60,7 +61,7 @@ POST https://cse-341-web-services-imke.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
- "firstName":"Jim", 
+ "firstName":"Bob", 
  "lastName":"Keer", "email":"Jim@gmail.com",
  "favoriteColor":"Purple",
  "birthday":"06/09/2000"
@@ -68,17 +69,17 @@ content-type: application/json
 
 
 ### PUT contact 
-PUT https://cse-341-web-services-imke.onrender.com/contacts/663852449fdb8f8e7896de4a HTTP/1.1
+PUT https://cse-341-web-services-imke.onrender.com/contacts/6647c541c7997f9c91f04cc4 HTTP/1.1
 content-type: application/json
 
 {
 "firstName":"Samantha", 
-"lastName":"Brown", 
+"lastName":"Smith", 
 "email":"Sambrown@yahoo.com", 
-"favoriteColor":"Purple", 
+"favoriteColor":"Green", 
 "birthday":"01/08/2020"
 }
 
 ### DELETE contact
-DELETE https://cse-341-web-services-imke.onrender.com/contacts/663b92f943994893d093c863 HTTP/1.1
+DELETE https://cse-341-web-services-imke.onrender.com/contacts/6647c541c7997f9c91f04cc4 HTTP/1.1
 
